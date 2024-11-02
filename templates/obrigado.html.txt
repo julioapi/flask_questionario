@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="thank-you-container">
-        <div class="icon-success">&#10004;</div> <!-- Ícone de sucesso -->
+        <div class="icon-success">&#10004;</div>
         <h1>Obrigado, {{ nome }}!</h1>
         <p>Recebemos suas informações com sucesso.</p>
         <a href="/" class="home-button">Voltar para o início</a>
