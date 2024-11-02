@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="icon-success">&#10004;</div> <!-- Ícone de sucesso -->
+        <h1>Obrigado, {{ nome }}!</h1>
+        <p>Recebemos suas informações com sucesso.</p>
+        <a href="/" class="home-button">Voltar para o início</a>
+    </div>
+</body>
+</html>
